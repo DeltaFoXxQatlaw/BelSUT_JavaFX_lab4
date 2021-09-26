@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"com.example.lab4_var11"}]

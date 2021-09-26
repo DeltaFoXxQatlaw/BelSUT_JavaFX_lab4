@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="546.0" style="-fx-background-color: #ff8e00;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4_var11.author_controller">
+    <children>
+        <AnchorPane layoutY="42.0" prefHeight="338.0" prefWidth="546.0" style="-fx-background-color: #144046;">
+            <children>
+                <Text fill="WHITE" layoutX="209.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Об авторе" textAlignment="CENTER">
+                    <font>
+                        <Font name="Aharoni Bold" size="30.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="53.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данный JavaFX проект разработал студент группы ЭМ-31, Литвинов Е. П." textAlignment="JUSTIFY" wrappingWidth="451.40625">
+                    <font>
+                        <Font name="Aharoni Bold" size="25.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="50.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ссылка на Github-аккаунт: https://github.com/DeltaFoXxQatlaw" textAlignment="JUSTIFY" wrappingWidth="451.4062457084656">
+                    <font>
+                        <Font name="Aharoni Bold" size="25.0" />
+                    </font>
+                </Text>
+                <Button fx:id="h_go" layoutX="210.0" layoutY="268.0" mnemonicParsing="false" onAction="#hyper_go" text="Перейти">
+                    <font>
+                        <Font name="Aharoni Bold" size="25.0" />
+                    </font>
+                </Button>
+                <Text fill="WHITE" layoutX="53.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="По всем вопросам писать на почту: mr.delfer@mail.ru" textAlignment="JUSTIFY" wrappingWidth="451.4062457084656">
+                    <font>
+                        <Font name="Aharoni Bold" size="25.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <Button fx:id="m_p" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchToStartMenu" prefHeight="24.0" prefWidth="108.0" style="-fx-background-color: #b1710d;" text="Главное меню" textFill="WHITE">
+            <font>
+                <Font name="Arial Unicode MS" size="11.0" />
+            </font>
+        </Button>
+        <Button fx:id="c1_p" layoutX="130.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchToAud" prefHeight="24.0" prefWidth="70.0" style="-fx-background-color: #b1710d;" text="Класс 1" textFill="WHITE">
+            <font>
+                <Font name="Arial Unicode MS" size="11.0" />
+            </font>
+        </Button>
+        <Button fx:id="c2_p" layoutX="220.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchTolecture" style="-fx-background-color: #b1710d;" text="Класс 2" textFill="WHITE">
+            <font>
+                <Font name="Arial Unicode MS" size="11.0" />
+            </font>
+        </Button>
+        <Button fx:id="c3_p" layoutX="303.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchTocomputer" style="-fx-background-color: #b1710d;" text="Класс 3" textFill="WHITE">
+            <font>
+                <Font name="Arial Unicode MS" size="11.0" />
+            </font>
+        </Button>
+        <Button fx:id="aut_p" layoutX="388.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchToauthor" style="-fx-background-color: #b1710d;" text="Об авторе" textFill="WHITE">
+            <font>
+                <Font name="Arial Unicode MS" size="11.0" />
+            </font>
+        </Button>
+        <Button fx:id="exit_p" layoutX="483.0" layoutY="8.0" mnemonicParsing="false" onAction="#go_away" style="-fx-background-color: #b1710d;" text="Выйти" textFill="WHITE">
+            <font>
+                <Font name="Arial Unicode MS" size="11.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="546.0" style="-fx-background-color: #ff8e00;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4_var11.StartController">
+   <children>
+      <AnchorPane layoutY="42.0" prefHeight="338.0" prefWidth="546.0" style="-fx-background-color: #144046;">
+         <children>
+            <Label layoutX="139.0" layoutY="36.0" text="Добро пожаловать!" textFill="WHITE">
+               <font>
+                  <Font name="Aharoni Bold" size="30.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="94.0" layoutY="104.0" lineSpacing="6.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данное приложение является результатом выполнения лабораторной работы №4" textAlignment="JUSTIFY" wrappingWidth="357.33935546875">
+               <font>
+                  <Font name="Aharoni Bold" size="18.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="start_im" fitHeight="150.0" fitWidth="200.0" layoutX="173.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/computers.jpg" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="m_p" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchToStartMenu" prefHeight="24.0" prefWidth="108.0" style="-fx-background-color: #b1710d;" text="Главное меню" textFill="WHITE">
+         <font>
+            <Font name="Arial Unicode MS" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="c1_p" layoutX="130.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchToAud" prefHeight="24.0" prefWidth="70.0" style="-fx-background-color: #b1710d;" text="Класс 1" textFill="WHITE">
+         <font>
+            <Font name="Arial Unicode MS" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="c2_p" layoutX="220.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchTolecture" style="-fx-background-color: #b1710d;" text="Класс 2" textFill="WHITE">
+         <font>
+            <Font name="Arial Unicode MS" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="c3_p" layoutX="303.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchTocomputer" style="-fx-background-color: #b1710d;" text="Класс 3" textFill="WHITE">
+         <font>
+            <Font name="Arial Unicode MS" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="aut_p" layoutX="388.0" layoutY="8.0" mnemonicParsing="false" onAction="#switchToauthor" style="-fx-background-color: #b1710d;" text="Об авторе" textFill="WHITE">
+         <font>
+            <Font name="Arial Unicode MS" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit_p" layoutX="483.0" layoutY="8.0" mnemonicParsing="false" onAction="#go_away" style="-fx-background-color: #b1710d;" text="Выйти" textFill="WHITE">
+         <font>
+            <Font name="Arial Unicode MS" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
